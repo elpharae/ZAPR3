@@ -11,18 +11,18 @@ public class Main {
         if (index < 1 || index > 12) result = "Invalid index";
         else {
             switch (index) {
-                case 1: result =  "Jan";
-                case 2: result =  "Feb";
-                case 3: result =  "Mar";
-                case 4: result =  "Apr";
-                case 5: result =  "May";
-                case 6: result =  "Jun";
-                case 7: result =  "Jul";
-                case 8: result =  "Aug";
-                case 9: result =  "Sep";
-                case 10: result =  "Oct";
-                case 11: result =  "Nov";
-                case 12: result =  "Dec";
+                case 1: result =  "Jan"; break;
+                case 2: result =  "Feb"; break;
+                case 3: result =  "Mar"; break;
+                case 4: result =  "Apr"; break;
+                case 5: result =  "May"; break;
+                case 6: result =  "Jun"; break;
+                case 7: result =  "Jul"; break;
+                case 8: result =  "Aug"; break;
+                case 9: result =  "Sep"; break;
+                case 10: result =  "Oct"; break;
+                case 11: result =  "Nov"; break;
+                case 12: result =  "Dec"; break;
             }
         }
         return result;
